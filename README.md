@@ -1,5 +1,5 @@
 # LearnMem 2023 Posters Supplementary Webpage
-This is the repo for Çağatay Gürsoy's LearnMem2023 posters' supplemantary webpage.
+This is the repo for Çağatay Gürsoy's LearnMem2023 posters' supplementary webpage.
 
 It is forked from Eliahu Horwitz's [template](https://github.com/eliahuhorwitz/Academic-project-page-template).
 
