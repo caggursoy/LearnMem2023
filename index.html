@@ -55,22 +55,22 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank"><b>Çağatay N. Gürsoy</b></a>,
+                <a href="https://cagataygursoy.com/" target="_blank"><b>Çağatay N. Gürsoy</b></a>,
               </span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Juliane Nagel</a>,
+                  <a href="https://mastodon.online/@juli_nagel@fosstodon.org" target="_blank">Juliane Nagel</a>,
                 </span>
                 <span class="author-block">
-                  <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Simon Kern</a>,
+                  <a href="https://skjerns.de/" target="_blank">Simon Kern</a>,
                 </span>
                 <span class="author-block">
-                  <a href="4th AUTHOR PERSONAL LINK" target="_blank">Martin F. Gerchen</a>,
+                  <a href="https://www.zi-mannheim.de/forschung/personen/person/6862.html" target="_blank">Martin F. Gerchen</a>,
                 </span>
                 <span class="author-block">
-                  <a href="5th AUTHOR PERSONAL LINK" target="_blank">Peter Kirsch</a>,
+                  <a href="https://www.zi-mannheim.de/forschung/personen/person/10013.html" target="_blank">Peter Kirsch</a>,
                 </span>
                   <span class="author-block">
-                    <a href="LAST AUTHOR PERSONAL LINK" target="_blank">Gordon B. Feld</a>
+                    <a href="https://twitter.com/GordonFeld" target="_blank">Gordon B. Feld</a>
                   </span>
                   </div>
 
@@ -134,15 +134,50 @@
 </section>
 <!-- End paper abstract -->
 
+<!-- TOC -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <!-- <div class="columns is-centered has-text-centered"> -->
+      <div class="column is-four-fifths">
+        <div id="toc_container">
+        <h2 class="title is-3">List of Contents</h2>
+        <ul class="toc_list">
+          <li><a href="#iteration_1"><b>1. Iteration 1: Detailed Tables and Plots </b></a>
+          <ul>
+            <li><a href="#iter1_want_like">&emsp;1.1 Wanting and Liking questions boxplot</a></li>
+            <li><a href="#iter1_want_anova">&emsp;1.2 ANOVA table for Wanting Questions</a></li>
+            <li><a href="#iter1_like_anova">&emsp;1.3 ANOVA table for Liking Questions</a></li>
+            <li><a href="#iter1_want_boxp">&emsp;1.4 Wanting question boxplot</a></li>
+            <li><a href="#iter1_like_boxp">&emsp;1.5 Liking question boxplot</a></li>
+          </ul>
+        </li>
+        <li><a href="#iteration_2"><b>2. Iteration 2: Detailed Tables and Plots</b></a></li>
+        <ul>
+          <li><a href="#iter2_want_like">&emsp;2.1 Wanting and Liking questions boxplot</a></li>
+          <li><a href="#iter2_want_anova">&emsp;2.2 ANOVA table for Wanting Questions</a></li>
+          <li><a href="#iter2_like_anova">&emsp;2.3 ANOVA table for Liking Questions</a></li>
+          <li><a href="#iter2_want_boxp">&emsp;2.4 Wanting question boxplot</a></li>
+          <li><a href="#iter2_like_boxp">&emsp;2.5 Liking question boxplot</a></li>
+        </ul>
+        <li><a href="#learnmem-poster"><b>3. LearnMem2023 Poster</b></a></li>
+        <li><a href="#isrw-poster"><b>4. ISRW2023 Poster</b></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End TOC -->
+
 <!-- Stats tables -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h1 class="title is-2">Iteration 1 <br><br>Detailed Tables and Plots</h1>
-        <h2 class="title is-3"><br>Wanting question boxplot</h2>
-        <img src="static/images/fig_wanting.png" alt="Wanting question boxplot"/>
-        <h3 class="title is-4"><br>ANOVA table for Wanting Questions</h3>
+        <h1 class="title is-2" id="iteration_1">Iteration 1 <br><br>Detailed Tables and Plots</h1>
+        <h2 class="title is-3" id="iter1_want_like"><br>Wanting and Liking questions boxplot</h2>
+        <img src="static/images/fig_wanting_liking.png" alt="Wanting question boxplot"/>
+        <h3 class="title is-4" id="iter1_want_anova"><br>ANOVA table for Wanting Questions</h3>
         <div class="content has-text-justified">
           <p>
 
@@ -209,9 +244,8 @@
             </table>
 
           </p>
-          <h2 class="title is-3" style="text-align: center;"><br>Liking question boxplot</h2>
-          <img src="static/images/fig_liking.png" alt="Liking question boxplot"/>
-          <h3 class="title is-4" style="text-align: center;">ANOVA table for Liking Questions</h3>
+
+          <h3 class="title is-4" style="text-align: center;" id="iter1_like_anova">ANOVA table for Liking Questions</h3>
             <p>
 
               <style type="text/css">
@@ -277,6 +311,11 @@
               </table>
 
             </p>
+
+          <h2 class="title is-3" style="text-align: center;" id="iter1_want_boxp"><br>Wanting question boxplot</h2>
+          <img src="static/images/fig_wanting.png" alt="Wanting question boxplot"/>
+          <h2 class="title is-3" style="text-align: center;" id="iter1_like_boxp"><br>Liking question boxplot</h2>
+          <img src="static/images/fig_liking.png" alt="Liking question boxplot"/>
 
             <h2 class="title is-3" style="text-align: center;"><br>Linear Mixed Model</h2>
             <img src="static/images/lmm_plot.png" alt="LMM plot"/>
@@ -518,10 +557,10 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h1 class="title is-2">Iteration 2 <br><br>Detailed Tables and Plots</h1>
-        <h2 class="title is-3"><br>Wanting question boxplot</h2>
-        <img src="static/images/iter2/fig_wanting.png" alt="Wanting question boxplot"/>
-        <h3 class="title is-4"><br>ANOVA table for Wanting Questions</h3>
+        <h1 class="title is-2" id="iteration_2">Iteration 2 <br><br>Detailed Tables and Plots</h1>
+        <h2 class="title is-3" id="iter2_want_like"><br>Wanting and Liking questions boxplot</h2>
+        <img src="static/images/iter2/fig_wanting_liking.png" alt="Iter 2 Wanting-liking question boxplot"/>
+        <h3 class="title is-4" id="iter2_want_anova"><br>ANOVA table for Wanting Questions</h3>
         <div class="content has-text-justified">
           <p>
 
@@ -588,9 +627,8 @@
             </table>
 
           </p>
-          <h2 class="title is-3" style="text-align: center;"><br>Liking question boxplot</h2>
-          <img src="static/images/iter2/fig_liking.png" alt="Liking question boxplot"/>
-          <h3 class="title is-4" style="text-align: center;">ANOVA table for Liking Questions</h3>
+
+          <h3 class="title is-4" style="text-align: center;" id="iter2_like_anova">ANOVA table for Liking Questions</h3>
             <p>
 
               <style type="text/css">
@@ -656,6 +694,13 @@
               </table>
 
             </p>
+
+
+          <h2 class="title is-3" style="text-align: center;" id="iter2_want_boxp"><br>Wanting question boxplot</h2>
+          <img src="static/images/iter2/fig_wanting.png" alt="Iter 2 Wanting question boxplot"/>
+          <h2 class="title is-3" style="text-align: center;" id="iter2_like_boxp"><br>Liking question boxplot</h2>
+          <img src="static/images/iter2/fig_liking.png" alt="Iter 2 Liking question boxplot"/>
+
 
             <h2 class="title is-3" style="text-align: center;"><br>Linear Mixed Model</h2>
             <img src="static/images/iter2/lmm_plot.png" alt="LMM plot"/>
@@ -896,7 +941,7 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">LearnMem2023 Poster</h2>
+      <h2 class="title" style="text-align: center;" id="learnmem-poster">LearnMem2023 Poster</h2>
 
       <iframe  src="static/pdfs/learnmem2023_poster_v1.pdf" width="100%" height="1080">
           </iframe>
@@ -910,7 +955,7 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">ISRW2023 Poster</h2>
+      <h2 class="title" style="text-align: center;" id="isrw-poster">ISRW2023 Poster</h2>
 
       <iframe  src="static/pdfs/learnmem2023_poster-ISRW_v1.pdf" width="100%" height="1080">
           </iframe>
